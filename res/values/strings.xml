@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Metronome</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="metro">Metronome</string>
+    <string name="bpmlabel">BPM</string>
+    <color name="red">#F00</color>
+    <color name="blue">#00F</color>
+    
+    <string name="glass_voice_trigger">play</string>
+    <string name="glass_voice_prompt">yes sir</string>
+
+</resources>

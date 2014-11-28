@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vizor.metronome.MetronomeActivity"
+    tools:ignore="MergeRootFrame" 
+    android:text=""
+    >
+    
+
+<!-- live bpm -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:textSize="155sp"
+        android:text="100" 
+        android:gravity="right"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="49dp"
+        />
+    
+<!-- tick/tock -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="155px"
+        android:layout_height="100px"
+        android:text="tick"
+        android:gravity="right"
+        android:layout_marginLeft="448px"
+        android:layout_marginTop="19px"
+        android:textSize="50sp" />
+    
+<!-- play/pause -->
+      <ImageView
+        android:id="@+id/ImageViewPlay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="left"
+        android:layout_marginLeft="402px"
+        android:layout_marginTop="50px"
+        android:src="@drawable/play" />
+      
+<!-- needle -->
+    <ImageView
+        android:id="@+id/ImageViewNeedle"
+        android:layout_width="50px"
+        android:layout_height="264px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="58px"
+        android:src="@drawable/needle" />
+
+</FrameLayout>
